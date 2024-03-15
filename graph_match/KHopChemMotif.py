@@ -106,4 +106,5 @@ if __name__ == '__main__':
             if subset.shape[0] > 2:
                 motifs.append((sub_x, sub_edge_attr, sub_edge_index))
         print(len(motifs))
-    torch.save(motifs, 'motifs.pt')
+    #torch.save(motifs, 'motifs.pt')
+    torch.save(motifs, 'graphs.pt')
