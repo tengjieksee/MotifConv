@@ -1,7 +1,7 @@
 # Implementation of motif convolution
 
 
-1. Get the data.x, data.edge_attr, data.edge_index as tuple as graphs.pt
+1. Get the data.x, data.edge_attr, data.edge_index as tuple as graphs.pt using python3 preprocess.py
 2. python3 run_gm.py graphs.pt to create scores.pt
 3. python3 clustering.py n to create motifs.pt
 4. python3 extend.py motifs.pt graphs.pt 10 to create extend_data.pt
